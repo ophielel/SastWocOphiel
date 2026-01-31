@@ -1,0 +1,72 @@
+# Rust 构建产物
+target/
+**/*.rs.bk
+*.pdb
+build/
+magic/
+
+# 编译生成的二进制文件
+*.bin
+*.elf
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.mod
+*.cmd
+*.o.d
+*.order
+*.symvers
+*.ko
+*.mod.c
+!magic.ko
+
+# IDE 和编辑器配置
+rust-project.json
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# 日志文件
+*.log
+*.tmp
+
+# 临时文件
+*.bak
+*.cache
+*.orig
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Submodule 目录
+busybox/
+linux/
+src/woc2026_hello_from_rkm.ko
+src/woc2026_hello_from_rkm.ko
+src/modules.order
+src/modules.order
+src/modules.order
+.rootfs_stamp
+.dir-locals.el

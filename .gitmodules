@@ -1,0 +1,9 @@
+[submodule "busybox"]
+	path = busybox
+	url = https://git.busybox.net/busybox/
+	shallow = true
+
+[submodule "linux"]
+	path = linux
+	url = https://github.com/Rust-for-Linux/linux.git
+	shallow = true

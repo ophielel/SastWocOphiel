@@ -1,0 +1,11 @@
+# rust-analyzer configuration for kernel module
+
+[cargo]
+enable = false
+buildScripts.enable = false
+
+[procMacro]
+enable = false
+
+[rustc]
+source = "discover"

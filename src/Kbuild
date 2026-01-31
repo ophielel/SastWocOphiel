@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: GPL-2.0
+
+obj-m := woc2026_hello_from_skm.o
+woc2026_hello_from_skm-y := module.o
