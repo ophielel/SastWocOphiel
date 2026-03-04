@@ -76,18 +76,9 @@ magic_test
 dmsg | tail -10
 ```
 
-### 3.使用DebugFS调试Tetris
+### 3.debugfs部分
 
-```bash
-# 挂载debugfs
-mount -t debugfs none /sys/kernel/debug
+本人能力实在有限，没做出来，已燃尽喵
 
-# 查看Tetris状态
-cat /sys/kernel/debug/tetris/status
-
-# 查看游戏棋盘
-cat /sys/kernal/deug/tetris/board
-
-# 控制游戏（如重置）
-echo "reset" > /sys/kernel/debug/tetris/control
-
+这期神了，神在哪，神在原后面
+这期拉了，拉在哪，拉在卡和比丘中间
